@@ -78,7 +78,7 @@ Total Pipeline	~900ms	Well within the 1500ms limit
 Memory Usage	~1.2GB	Efficient for modern laptops  
 
 ## Demo Video Drive Link
-[Drive Link For Demo Video]([https://drive.google.com/your-drive-link](https://drive.google.com/file/d/1siBNRoNjsW-l8L6Ze07yzmgoI6jSnQwQ/view?usp=sharing))
+https://drive.google.com/file/d/1siBNRoNjsW-l8L6Ze07yzmgoI6jSnQwQ/view?usp=sharing
 
 ##  Screenshots
 
