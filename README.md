@@ -22,7 +22,7 @@ A real-time, privacy-focused speech dictation engine that transforms raw voice i
 Standard speech-to-text tools output raw streams of consciousness:
 > *"um hello draft email to boss saying i am late no i mean sick regards john"*
 
-This requires manual editing, wasting time. **Neural Dictate** solves this by producing ready-to-use text instantly:
+This requires manual editing, wasting time. **SpeechEngine** solves this by producing ready-to-use text instantly:
 > **Subject: Sick Leave**
 >
 > **Hello Boss,**
