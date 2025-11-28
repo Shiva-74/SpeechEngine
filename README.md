@@ -85,7 +85,7 @@ Memory Usage	~1.2GB	Efficient for modern laptops
 ### Main Interface
 <img src="img%201.png" width="600"/>
 
-### Additional View - Email
+### Additional View - CheckList
 <img src="img%202.png" width="600"/>
 
 ##  Installation & Setup
