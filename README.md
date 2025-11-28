@@ -36,16 +36,22 @@ All processing happens **locally** with strict latency constraints (**≤1500ms*
 
 ---
 
-##  Key Features
+\section*{Key Features}
 
-* ** Ultra-Low Latency:**  Optimized pipeline achieves **~800-1200ms** end-to-end latency using in-memory processing and quantized models.
-* ** Privacy-First (No LLMs):**  Uses lightweight ML models (`Faster-Whisper`, `T5-Small`) running entirely on the CPU. No data leaves your device.
-* ** Smart Formatting:** Context-aware logic automatically formats **Emails**, **Bulleted Lists**, and **Checklists**.
-* ** Grammar Correction:** Filters out fillers (*um, uh, like*) and fixes sentence structure/punctuation.
-* ** Intelligent VAD:** Frontend Voice Activity Detection automatically chunks speech based on natural pauses.
-* ** Split-Screen UI:** Real-time view of Raw STT Input vs. Final Polished Output.
+\begin{itemize}
+    \item \textbf{Ultra-Low Latency:} Optimized pipeline achieves \textbf{\textasciitilde800--1200ms} end-to-end latency using in-memory processing and quantized models.
+    
+    \item \textbf{Privacy-First (No LLMs):} Uses lightweight ML models (\texttt{Faster-Whisper}, \texttt{T5-Small}) running entirely on the CPU. No data leaves your device.
+    
+    \item \textbf{Smart Formatting:} Context-aware logic automatically formats \textbf{Emails}, \textbf{Bulleted Lists}, and \textbf{Checklists}.
+    
+    \item \textbf{Grammar Correction:} Filters out fillers (\textit{um, uh, like}) and fixes sentence structure and punctuation.
+    
+    \item \textbf{Intelligent VAD:} Frontend Voice Activity Detection automatically chunks speech based on natural pauses.
+    
+    \item \textbf{Split-Screen UI:} Real-time view of \textbf{Raw STT Input} vs. \textbf{Final Polished Output}.
+\end{itemize}
 
----
 
 ##  System Architecture
 
