@@ -38,12 +38,12 @@ All processing happens **locally** with strict latency constraints (**≤1500ms*
 
 ##  Key Features
 
-** Ultra-Low Latency:**  Optimized pipeline achieves **~800-1200ms** end-to-end latency using in-memory processing and quantized models.
-** Privacy-First (No LLMs):**  Uses lightweight ML models (`Faster-Whisper`, `T5-Small`) running entirely on the CPU. No data leaves your device.
-** Smart Formatting:** Context-aware logic automatically formats **Emails**, **Bulleted Lists**, and **Checklists**.
-** Grammar Correction:** Filters out fillers (*um, uh, like*) and fixes sentence structure/punctuation.
-** Intelligent VAD:** Frontend Voice Activity Detection automatically chunks speech based on natural pauses.
-** Split-Screen UI:** Real-time view of Raw STT Input vs. Final Polished Output.
+* ** Ultra-Low Latency:**  Optimized pipeline achieves **~800-1200ms** end-to-end latency using in-memory processing and quantized models.
+* ** Privacy-First (No LLMs):**  Uses lightweight ML models (`Faster-Whisper`, `T5-Small`) running entirely on the CPU. No data leaves your device.
+* ** Smart Formatting:** Context-aware logic automatically formats **Emails**, **Bulleted Lists**, and **Checklists**.
+* ** Grammar Correction:** Filters out fillers (*um, uh, like*) and fixes sentence structure/punctuation.
+* ** Intelligent VAD:** Frontend Voice Activity Detection automatically chunks speech based on natural pauses.
+* ** Split-Screen UI:** Real-time view of Raw STT Input vs. Final Polished Output.
 
 ---
 
