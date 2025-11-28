@@ -1,4 +1,4 @@
-#  Neural Dictate: Intelligent Low-Latency Speech Engine
+# SpeechEngine: Intelligent Low-Latency Speech Engine
 **(Ready-to-Use Output | No LLMs | <1500ms Latency)**
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue) ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-green) ![Model](https://img.shields.io/badge/Model-Faster--Whisper-orange) ![License](https://img.shields.io/badge/License-MIT-purple) ![Status](https://img.shields.io/badge/Status-Production--Ready-red)
