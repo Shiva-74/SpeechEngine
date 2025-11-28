@@ -76,6 +76,14 @@ Grammar Latency	~400ms	Using optimized T5-Base
 Logic/Formatting	~1ms	Regex-based (Instant)  
 Total Pipeline	~900ms	Well within the 1500ms limit  
 Memory Usage	~1.2GB	Efficient for modern laptops  
+##  Screenshots
+
+### Main Interface
+<img src="img%201.png" width="600"/>
+
+### Additional View
+<img src="img%202.png" width="600"/>
+
 ##  Installation & Setup
 Prerequisites
 Python 3.10+
