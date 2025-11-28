@@ -76,12 +76,16 @@ Grammar Latency	~400ms	Using optimized T5-Base
 Logic/Formatting	~1ms	Regex-based (Instant)  
 Total Pipeline	~900ms	Well within the 1500ms limit  
 Memory Usage	~1.2GB	Efficient for modern laptops  
+
+## Demo Video Drive Link
+[Drive Link For Demo Video]([https://drive.google.com/your-drive-link](https://drive.google.com/file/d/1siBNRoNjsW-l8L6Ze07yzmgoI6jSnQwQ/view?usp=sharing))
+
 ##  Screenshots
 
 ### Main Interface
 <img src="img%201.png" width="600"/>
 
-### Additional View
+### Additional View - Email
 <img src="img%202.png" width="600"/>
 
 ##  Installation & Setup
