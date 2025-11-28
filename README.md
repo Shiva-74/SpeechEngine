@@ -174,7 +174,7 @@ The plan is:
 • Work hard
 • Finish fast
 ```
-Tech Stack
+### Tech Stack
 Backend: FastAPI (Python)
 Speech-to-Text: Faster-Whisper (CTranslate2)
 Grammar Correction: Vennify/T5-Base-Grammar
@@ -202,20 +202,21 @@ neural-dictate/
 ```
 Advanced Configuration
 You can tweak performance settings in services/asr_engine.py and templates/index.html.
-1. Adjusting Silence Detection (Frontend)
+### 1. Adjusting Silence Detection (Frontend)
 In index.html, modify these constants to change how aggressive the auto-cutting is:
 ```
 const SILENCE_MS = 1000;  // Time to wait before cutting (in ms)
 const VOL_THRESHOLD = 2;  // Volume sensitivity (Lower = more sensitive)
 ```
-2. Changing Model Size (Backend)
+### 2. Changing Model Size (Backend)
 In app.py, you can swap the model for accuracy vs. speed trade-offs:
-code
-Python
-# Options: tiny.en, base.en, small.en, medium.en
+
+### Options: tiny.en, base.en, small.en, medium.en
+```
 asr_engine = FastWhisperEngine(model_size="base.en")
+```
 Note: base.en is the recommended balance for CPU inference.
-🐛 Troubleshooting
+Troubleshooting
 Q: The latency is high (>2000ms).
 Fix: Ensure you are running on a machine with AVX2 support. The first run is always slower due to model loading. Subsequent requests will be fast.
 Q: It's cutting me off while speaking.
